@@ -2,31 +2,31 @@ def convert_Units(user_list):
     ## A series of if statements to find the correct Algorithm
     if user_list[1] == 'mm':
         ## Creates the calculation and formatted output
-        golden_Egg = str("{} Millimeters is equal to {:.2f} Inches".format(user_list[0],float(user_list[0]) * .03937))
+        golden_Egg = "{} Millimeters is equal to {:.2f} Inches".format(user_list[0],float(user_list[0]) * .03937)
     if user_list[1] == 'cm':
-        golden_Egg = str("{} Centimeters is equal to {:.2f} Inches".format(user_list[0],float(user_list[0]) * .3937))
+        golden_Egg = "{} Centimeters is equal to {:.2f} Inches".format(user_list[0],float(user_list[0]) * .3937)
     if user_list[1] == 'm':
-        golden_Egg = str("{} Meters is equal to {:.2f} Yards".format(user_list[0],float(user_list[0]) * 1.0936))
+        golden_Egg = "{} Meters is equal to {:.2f} Yards".format(user_list[0],float(user_list[0]) * 1.0936)
     if user_list[1] == 'km':
-        golden_Egg = str("{} Kilometers is equal to {:.2f} Miles".format(user_list[0],float(user_list[0]) * .6214))
+        golden_Egg = "{} Kilometers is equal to {:.2f} Miles".format(user_list[0],float(user_list[0]) * .6214)
     if user_list[1] == 'in':
-        golden_Egg = str("{} Inches is equal to {:.2f} Centimeters".format(user_list[0],float(user_list[0]) * 2.54))
+        golden_Egg = "{} Inches is equal to {:.2f} Centimeters".format(user_list[0],float(user_list[0]) * 2.54)
     if user_list[1] == '\"':
-        golden_Egg = str("{} Inches is equal to {:.2f} Centimeters".format(user_list[0],float(user_list[0]) * 2.54))
+        golden_Egg = "{} Inches is equal to {:.2f} Centimeters".format(user_list[0],float(user_list[0]) * 2.54)
     if user_list[1] == 'ft':
-        golden_Egg = str("{} Feet is equal to {:.2f} Meters".format(user_list[0],float(user_list[0]) * .3048))
+        golden_Egg = "{} Feet is equal to {:.2f} Meters".format(user_list[0],float(user_list[0]) * .3048)
     if user_list[1] == '\'':
-        golden_Egg = str("{} Feet is equal to {:.2f} Meters".format(user_list[0],float(user_list[0]) * .3048))
+        golden_Egg = "{} Feet is equal to {:.2f} Meters".format(user_list[0],float(user_list[0]) * .3048)
     if user_list[1] == 'yd':
-        golden_Egg = str("{} Yards is equal to {:.2f} Meters".format(user_list[0],float(user_list[0]) * .9144))
+        golden_Egg = "{} Yards is equal to {:.2f} Meters".format(user_list[0],float(user_list[0]) * .9144)
     if user_list[1] == 'mi':
-        golden_Egg = str("{} Miles is equal to {:.2f} Kilometers".format(user_list[0],float(user_list[0]) * 1.6093))
+        golden_Egg = "{} Miles is equal to {:.2f} Kilometers".format(user_list[0],float(user_list[0]) * 1.6093)
     if user_list[1] == 'nm':
-        golden_Egg = str("{} Nautical Miles is equal to {:.2f} Kilometers".format(user_list[0],float(user_list[0]) * 1.853))
+        golden_Egg = "{} Nautical Miles is equal to {:.2f} Kilometers".format(user_list[0],float(user_list[0]) * 1.853)
     if user_list[1] == 'c':
-        golden_Egg = str("{} Celsius is equal to {:.2f} Degrees Fahrenheit".format(user_list[0],float(user_list[0]) * 9/5 + 32))
+        golden_Egg = "{} Celsius is equal to {:.2f} Degrees Fahrenheit".format(user_list[0],float(user_list[0]) * 9/5 + 32)
     if user_list[1] == 'f':
-        golden_Egg = str("{} Fahrenheit is equal to {:.2f} Degrees Celsius".format(user_list[0],float(user_list[0]) - 32 * 5/9))
+        golden_Egg = "{} Fahrenheit is equal to {:.2f} Degrees Celsius".format(user_list[0],float(user_list[0]) - 32 * 5/9)
     ## Returns the formatted answer as a string
     return golden_Egg
 
@@ -65,3 +65,4 @@ def main():
 
 if __name__=='__main__':
     main()
+
