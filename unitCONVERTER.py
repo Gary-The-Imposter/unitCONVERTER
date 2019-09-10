@@ -33,7 +33,7 @@ def convert_Units(user_list):
 def unit_Converter():
     ## Explination of how to use the program
     ## This displays only once to the user
-    print("Welcome to Eric's Unit Converter.")
+    print("Welcome to Gary's Unit Converter.")
     print("To convert a unit, input a number followed by a space and then a unit.")
     print("Example Input: 200 mi")
     print("You may input as many numbers as you'd like.")
